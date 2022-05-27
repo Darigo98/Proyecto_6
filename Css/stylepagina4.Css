@@ -1,0 +1,74 @@
+ul{
+    list-style-type: none;
+    background-color:rgb(219, 112, 147);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin:1px 10px 20px 10px;
+    text-align: center;
+    border: 1px solid rgb(211, 245, 203);
+    border-radius: 10px;
+
+}
+li a{
+    float: left;
+    display: block;
+    padding: 15px;
+    color: rgb(4, 3, 5);
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: rgb(161, 113, 136);
+
+}
+table {
+    width: 100%;
+
+}
+caption{
+    color: rgb(173, 118, 157);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    line-height: 70px;
+}
+table, th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+
+}
+td{
+    text-align: center;
+
+}
+th{
+    background-color: rgb(210, 30, 195);
+    color:aquamarine;
+
+}
+tr:nth-child(even){
+    background-color:dodgerblue;
+
+}
+tr:nth-child(odd){
+    background-color:blueviolet;
+    
+}
+ol{
+    list-style: none;
+    counter-reset: contador;
+}
+ol li{
+    counter-increment: contador;
+}
+ol li::before{
+    content: counter(contador) '.--';
+    color:coral
+
+}
+ol li::after{
+    content:'**';
+    color:cadetblue
+
+}
