@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .azul{
+        color: rgb(158, 75, 75);
+    }
+    </style>
+</head>
+<body>
+    <h1 id="Encabezado" class="azul"> Ejemplo javascript</h1>
+    <p id="Parrafo"> Itesco</p>
+    <p id="Parrafo" class="azul"> Ingenieria Informatica</p>
+    <p id="Parrafo"> Desarrollo Aplicaciones web</p>
+    <p id="Parrafo" class="azul"> 30 mayo 2022</p>
+    <script>
+        console.log("Bienvenido a javascript")
+        const Encabezadoh1 = document.getElementById('Encabezado')
+        const { innerHTML } = Encabezadoh1
+        consele.log(Encabezadoh1)
+        console.log('inner: ' + Encabezadoh1.innerHTML)
+        console.log('inner: ' + innerHTML)
+        console.log('-------------------------------')
+        const Parrafop1 = document.getElementById('parrafo1')
+        console.log('parrafop1: ' + Parrafop1.innerHTML)
+        console.log(`Valor del encabezado: ${Encabezadoh1.innerHTML} y el valor del parrafo 1 es: ${Parrafop1.innerHTML}`)
+        Parrafop1,innerHTML += ' TECNM '
+        console.log(`El valor del parrafo modificado es ${Parrafop1.innerHTML}`)
+        console.log('-------------------------------')
+        const parrafos = document.getElementsByTagName('p')
+        console.log(`Numero de parrafos: ${parrafos.length}`)
+        for(let i = 0; i < parrafos.length; i++){
+            console.log(`En el parrafo ${i+1} el valor es: ${parrafos[i].innerHTML}`)
+        }
+        console.log('-------------------------------')
+        const elementsByClass = document.getElementsByClassName("azul")
+        console.log(`Numero de elmentos de la clase azul ${elementsByClass.length}`)
+        for(let i = 0; i < elementsByClass.length; i++){
+            console.log(`Valor del elemento: ${elementsByClass[i].innerHTML}`)
+        }
+        console.log('-------------------------------')
+        const elementsByTypeAndClass = document.querySelectorAll('p.azul')
+        for(item of elementsByTypeAndClass){
+            console.log(`Valor del parrafo azul: ${item.innerHTML}`)
+        }
+    </script>
+</body>
+</html>
