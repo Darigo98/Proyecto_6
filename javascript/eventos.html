@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+</head>
+<body>
+    <h1 id="tituloH1">Manejo de eventos</h1>
+    <br/>
+    <form id="formulario">
+        Nombre: <input type="text" id="name">
+        <br/>
+        <br/>
+        Apellido <input type="text" id="lastName"/>
+        <br/>
+        <br/>
+    </form>
+    <button onclick="mostrarValores()">Mostrar</button>
+    <br/>
+    <div id="valores"></div>
+    <script>
+        function mostrarValores(){
+            const formulario1 = document.forms['formulario']
+            let texto = ''
+            for(item of formulario1){
+                texto += item.value + ' '
+            }
+            console.log(texto)
+            document.getElementById('valores').innerHTML = texto
+        }
+        const form1 = document.getElementById("formulario")
+        form1.addEventListener("focus", (evento)=>{
+            evento.target.style.background="red"
+        }, true)
+        form1.addEventListener("blur", (evento)=>{
+            evento.target.style.background="white"
+        }, true)
+    </script>
+</body>
+</html>
