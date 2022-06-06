@@ -1,42 +1,71 @@
 html{
-    height: 100%;
-}
-body{
-    margin:0;
-    padding: 0;
-    background: linear-gradient(rgb(212, 164, 209),rgb(185, 167, 183));
-}
-.container{
-    margin: 50px auto;
-    width: 400px;
-    padding: 30px;
-    background: rgb(8, 5, 7);
-    border-radius: 30px;
-
-}
-.conteiner h2{
-    margin: 0 0 30px;
-    padding: 0;
-    font-size:30px;
-    color: rgb(43, 226, 165);
+    Background-color: #ccd8e2;
+    Min-height: 800px;
+    Font-family: "helvética neve";
+    Background: url(1.0.png), 
+    Linear-gradient(to left, #f3aede, #74bae9);
+    }
+    
+   
+    .contenedor{
+    
+    margin: 150px auto;
+    width: 300px;
+    padding: 20px;
+    background: rgb(163, 111, 151);
+    border-radius: 40px;
+    
+    }
+    .contenedor h2{
+    margin: 10 10 60px;
+    padding: 0px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
     text-align: center;
-}
-.container.elemento label{
-    color: white;
-}
-.container.elemento input{
-    width: 100%;
-    padding: 10px 0;
-    color: rgb(12, 11, 12);
+    }
+    
+    .contenedor .elemento label {
+    
+    color: rgb(255, 255, 255);
+    
+    }
+    
+    .contenedor .elemento input  {
+    width: 300px;
+    padding: 0px 30;
+    color: rgb(250, 245, 255);
     background: transparent;
     border: none;
-    border-bottom: 30px;
-}
-.container .elemento input[type="submit"]{
-    background-color: rgb(17, 17, 17);
-    border: none;
-    letter-spacing: 5px;
-    cursor: pointer;
-    padding: 15px;
-    margin-top: 30px;
-}
+    border-bottom: 2px solid #c8fafa;
+    margin-bottom: 20px;
+    
+    
+    }
+       
+       
+       .contenedor .elemento .boton input{
+       
+        text-align: center;
+        
+        background-color:rgb(43, 0, 161);   
+        
+        
+        border-radius: 50px;
+        font-size: 10px;
+        
+        }
+        
+       
+        .enter button{
+            padding: 0.5em 1em;
+            border: none;
+            margin: 60px auto;
+            width: 300px;
+            background-color: cadetblue;
+            cursor: pointer;
+            border-radius: 10px
+        }
+        button:hover{
+            background-color:yellow;
+        }
+        
