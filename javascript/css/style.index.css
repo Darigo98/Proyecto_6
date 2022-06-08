@@ -1,0 +1,41 @@
+html{
+    Background-color: #020202;
+    Min-height: 1000px;
+    Font-family: "helvética neve";
+    Background: url(),    
+  
+    
+    
+    Linear-gradient(to left, #e6a3a3, #6d6969);
+    text-align:justify;
+    }
+
+    image.pequeña{
+        width: 50px; height: 50px;
+      }
+
+    h1 { 
+
+        color: rgb(0, 6, 92);
+        text-align:justify;
+        font-size:30px;
+        text-align: center;
+        
+      }
+      h2 { 
+
+        color: rgb(0, 6, 92);
+        text-align:justify;
+        font-size:30px;
+        text-align: center;
+        
+      }
+
+
+small
+      form{
+          font-family: monospace;
+          font-size:116px;
+          text-align:center;
+          margin-left: 120px;
+      }

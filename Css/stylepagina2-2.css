@@ -1,0 +1,33 @@
+html{
+    Background-color: #221212;
+    Min-height: 400px;
+    Font-family: "helvética neve";
+    Background: url() ,    
+  
+    
+    
+    Linear-gradient(to left, #e9d3df, #fab3db);
+    text-align:justify;
+    }
+
+    li a:hover{
+        background-color: rgb(255, 253, 253);
+        }
+
+
+    h1{
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(215, 204, 216);
+
+
+    }
+
+    img{
+        text-align: center;
+        margin-left: 100px;
+        font-weight: 410px;
+    }
+    
+   
+    
