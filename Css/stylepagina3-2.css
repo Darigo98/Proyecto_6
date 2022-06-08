@@ -1,0 +1,103 @@
+ table{
+    width: 90%;
+    margin-left: 60px;
+    
+    }
+    caption{
+    color: #040c0c;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 90px;
+    line-height: 0px;
+    }
+    table,th, td{
+    border: 1px solid rgb(158, 141, 173);
+    border-collapse: collapse;
+    padding: 5px;
+    
+    }
+    
+    td{
+    text-align: center;
+    
+    }
+    th{
+    background-color: rgb(56, 139, 207);
+    color: rgb(45, 17, 148);
+    
+    }
+    tr:nth-child(even){
+    background-color: rgb(190, 115, 159);
+    
+    }
+    tr:nth-child(odd){
+        background-color: rgb(131, 100, 241);
+        
+        }
+        ul{
+    list-style: none;
+    background-color:rgb(183, 144, 187);
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    }
+    
+    li a{
+    float: left;
+    display: block;
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none; 
+    }
+    li a:hover{
+    background-color: rgb(248, 248, 248);
+    }
+    
+    ol{
+    list-style: none;
+    counter-reset: contador;
+    
+    }
+    ol li{
+    counter-increment: contador ;
+    
+    }
+    
+    ol  li::before{
+    content: counter(contador) '.- ' ;
+    color: violet;
+    
+    
+    }
+    
+    ol li ::after{
+    content: '.';
+    
+    }
+    
+    html{
+        Background-color: #4e44ad;
+        Min-height: 1000px;
+        Font-family: "helvética neve";
+        Background: url(1.0.png) ,    
+      
+        
+        
+        Linear-gradient(to left, #ffffff, #f1efef);
+        text-align:justify;
+        }
+    
+        td{
+            text-align: center;
+            font-size: 25px;
+    
+    
+    
+    
+        }
+    
+        th{
+    
+            text-align: center;
+            font-size: 30px;
+        }
