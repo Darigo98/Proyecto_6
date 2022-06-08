@@ -4,49 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-    .azul{
-        color: rgb(158, 75, 75);
-    }
-    </style>
+    <title>Hamacas</title>
+    <link href="css/style.index.css" rel="stylesheet"/>
+    <link href="css/style.index2.css" rel="stylesheet"/>
+<style>
+
+.white{
+
+    color: rgb(184, 165, 202);
+}
+
+</style>
+
+
 </head>
-<body>
-    <h1 id="Encabezado" class="azul"> Ejemplo javascript</h1>
-    <p id="Parrafo"> Itesco</p>
-    <p id="Parrafo" class="azul"> Ingenieria Informatica</p>
-    <p id="Parrafo"> Desarrollo Aplicaciones web</p>
-    <p id="Parrafo" class="azul"> 30 mayo 2022</p>
+<body> 
+    <center><ul> <li><a href="index.html">INICIO </a></li>
+        <li><a href="login.html">LOGIN</a></li>
+        <li><a href="formulario.html">REGISTRATE</a></li>
+        <li><a href="pagina1.html">HISTORIA </a></li>
+        <li><a href="pagina2.html">QUIENES SOMOS</a> </li>
+        <li><a href="pagina3.html">PRODUCTOS </a></li>
+        <li><a href="pagina4.html">LISTA DE PRECIOS</a></li>
+        <li><a href="https://www.youtube.com/watch?v=dYd7VWFG_Ew">VIDEO</a></li>
+        <li><a href="javascript/index.html">CURIOSIDADES</a></li>
+
+       
+</ul></center>
+
+    <center>
+        <img loading="lazy"  src="image/sabias-que-letras.jpg"
+       alt="" width="500px" height="300px"></h1></center>
+       
+
+    <br>
+    <br>
+    <br>
+    <div class="contenedor">
+        <p></p>
+        
+ 
+     </div>
+     <h1 id="encabezado"  class="azul"> Las Hamacas Fueron inventadas por los mayas </h1><br>
+     <p id="parrafo1"   class="azul">No nos queda duda de que los Mayas eran gente inteligente. Y es que fueron ellos los que desarrollaron la única lengua escrita en Mesoamérica, quienes recibieron en mano el cacao por parte de su Dios y por supuesto también fueron ellos los que inventaron la hamaca. Y es que las hamacas se originan de las cortezas del árbol “hamac”, de ahí la palabra hamaca…
+     </p> <br>
+     <h1 id="encabezado"  class="azul"> las hamacas te proporcionan un sueño más profundo  </h1><br>
+     <p id="parrafo2"  class="azul">¿Te has preguntado alguna vez por qué una vez que te tumbas en una hamaca te relajas al instante? Está demostrado que no es sólo la vista del océano que tienes delante de ti en esos momentos, sino que son los efectos físicos de estar tumbado en la hamaca  los que te ayudan a relajarte de manera tan profunda. Y es que el movimiento que experimentas al estar en una hamaca  es similar al que sienten los bebés en los brazos de su madre. Es todo una cuestión de encontrar el sueño…
+     </p><br>
+     <h2 id="encabezado"  class="azul">Algunas Empresas cuentan con Hamacas en la oficina  </h2><br>
+     <p id="parrafo3">Solo se puede ser eficiente en el trabajo si previamente has descansado bien, ¿no? ¿Y dónde mejor podrás descansar que en una hamaca mientras te echas una siestecilla?  Los chicos de HubSpot opinan lo mismo y han colgado una hamaca sobre una alfombra de felpa donde la gente acude para ponerse al día mientras se toma un descanso.
+     </p><br>
+     <h2 id="encabezado"> Puedes bañarte al mismo tiempo que estas en la hamaca </h2><br>
+     <p id="parrafo5">Una reciente campaña de Kickstarter acaba de meterse en el bolsillo a los amantes de la hamaca de todos los rincones del planeta gracias a la combinación de los beneficios de la hamaca con un baño. ¿Hemos oído una hamaca llena de agua con burbujas? ¡Sí por favor! La compañía ya ha alcanzado su meta de  50.000$, con lo cual parece ser que las hidro-hamacas van a convertirse en algo real. ¿Quién dijo que los sueños  no se hacen realidad?
+     </p><br>
+
+
+    
+    
     <script>
-        console.log("Bienvenido a javascript")
-        const Encabezadoh1 = document.getElementById('Encabezado')
-        const { innerHTML } = Encabezadoh1
-        consele.log(Encabezadoh1)
-        console.log('inner: ' + Encabezadoh1.innerHTML)
-        console.log('inner: ' + innerHTML)
-        console.log('-------------------------------')
-        const Parrafop1 = document.getElementById('parrafo1')
-        console.log('parrafop1: ' + Parrafop1.innerHTML)
-        console.log(`Valor del encabezado: ${Encabezadoh1.innerHTML} y el valor del parrafo 1 es: ${Parrafop1.innerHTML}`)
-        Parrafop1,innerHTML += ' TECNM '
-        console.log(`El valor del parrafo modificado es ${Parrafop1.innerHTML}`)
-        console.log('-------------------------------')
-        const parrafos = document.getElementsByTagName('p')
-        console.log(`Numero de parrafos: ${parrafos.length}`)
-        for(let i = 0; i < parrafos.length; i++){
-            console.log(`En el parrafo ${i+1} el valor es: ${parrafos[i].innerHTML}`)
-        }
-        console.log('-------------------------------')
-        const elementsByClass = document.getElementsByClassName("azul")
-        console.log(`Numero de elmentos de la clase azul ${elementsByClass.length}`)
-        for(let i = 0; i < elementsByClass.length; i++){
-            console.log(`Valor del elemento: ${elementsByClass[i].innerHTML}`)
-        }
-        console.log('-------------------------------')
-        const elementsByTypeAndClass = document.querySelectorAll('p.azul')
-        for(item of elementsByTypeAndClass){
-            console.log(`Valor del parrafo azul: ${item.innerHTML}`)
-        }
+console.log('HAMACAS')
+ const encabezadoh1 = document.getElementById('encabezado'  )     //Bienvenidos, byid, innerhtml
+ const{innerHTML} = encabezadoh1
+ const parrafo1 = document.getElementById('parrafo1')
+
+ console.log('encanbezado: ' + encabezadoh1.innerHTML + 'y el parrado es' + parrafo1.innerHTML)   //strings templates
+ console.log(`encabezado: ${encabezadoh1.innerHTML} y el parrafo es ${parrafo1.innerHTML}`)
+ console.log(`encabezado: ${innerHTML}`) 
+ parrafo1.innerHTML += ' '
+
+ console.log(`El valor es: ${parrafo1.innerHTML}`) 
+ const parrafos = document.getElementsByTagName('p')                          //bytag
+ console.log(`numeros de parrafos: ${parrafos.length}`)
+ for(let i=0; i<parrafos.length; i++){
+console.log(`i: ${i} - ${parrafos[i].innerHTML}`)
+
+ } 
+ const elementos= document.getElementsByClassName('azul')
+ console.log(`numeros de elementos: ${elementos.length}`)                     //byclass
+ for(let i=0; i<elementos.length; i++){ 
+console.log(`i: ${i} - ${elementos[i].innerHTML}`)
+ }
+
+ const elementosp = document.querySelectorAll('p.azul')                         //query
+console.log('-----------------------')
+ for(item of elementosp){
+     console.log(`${item.innerHTML}`)
+     
+ }
     </script>
+    
 </body>
 </html>

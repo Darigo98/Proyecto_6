@@ -1,6 +1,6 @@
 ul{
     list-style-type: none;
-    background-color:rgb(219, 112, 147);
+    background-color:rgb(190, 151, 164);
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -14,13 +14,13 @@ li a{
     float: left;
     display: block;
     padding: 15px;
-    color: rgb(4, 3, 5);
+    color: rgb(5, 5, 7);
     text-align: center;
     text-decoration: none;
 }
 
 li a:hover{
-    background-color: rgb(161, 113, 136);
+    background-color: rgb(241, 226, 233);
 
 }
 table {
@@ -64,11 +64,11 @@ ol li{
 }
 ol li::before{
     content: counter(contador) '.--';
-    color:coral
+    color:rgb(238, 255, 80)
 
 }
 ol li::after{
     content:'**';
-    color:cadetblue
+    color:rgb(5, 5, 5)
 
 }

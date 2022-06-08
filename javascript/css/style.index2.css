@@ -1,6 +1,6 @@
 ul{
     list-style-type: none;
-    background-color:rgb(224, 141, 169);
+    background-color:rgb(211, 177, 177);
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -8,7 +8,6 @@ ul{
     text-align: center;
     border: 1px solid rgb(211, 245, 203);
     border-radius: 10px;
-
 }
 li a:hover{
     background-color: rgb(241, 241, 238);

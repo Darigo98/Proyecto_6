@@ -4,39 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eventos</title>
+   
+<title>eventos</title>
+<link  rel="stylesheet"   href="css/style.eventos.css"/> 
+<link href="css/style.eventos2.css" rel="stylesheet"/>
+
 </head>
-<body>
-    <h1 id="tituloH1">Manejo de eventos</h1>
-    <br/>
-    <form id="formulario">
-        Nombre: <input type="text" id="name">
-        <br/>
-        <br/>
-        Apellido <input type="text" id="lastName"/>
-        <br/>
-        <br/>
+
+
+<body >
+    <h1 id="tituloH1" onmouseover="toRed(this)" onmousedown="toBlue(this)">CONTACTANOS</h1>
+            <script>
+                function toRed (elemetH1){
+                    elemetH1.style.color ='red'
+                }
+                function toBlue (elemetH1){
+                    elemetH1.style.color ='blue'
+                console.log("onmouseUp")
+                }
+                </script>
+
+   
+    <h2>¿Necesitas ayuda con nuestros productos, o solo quieres más informacion?
+        Estamos aqui para ayudar.
+    </h2>
+
+    <section class="form-registrate">
+    
+
+        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Nombre" >
+<input class="controls" type="text" name="apellido" id="apellido" placeholder=" Correo" >
+<input class="controls" type="email" name="correo" id="correo" placeholder="Telefono " >
+<input class="controls" type="" name="correo" id="correo" placeholder="Asunto " >
+<input class="controls" type="" name="correo" id="correo" placeholder="Mensaje" >
+
+
+
+
+<a href="javascript:history.back()">
+    <img src="image/pngegg.png" height="30" width="70" alt="Botón"</a>
+
+
+         
+
+
+
+           
+
+
+
+        <br><br/>
     </form>
-    <button onclick="mostrarValores()">Mostrar</button>
-    <br/>
-    <div id="valores"></div>
-    <script>
-        function mostrarValores(){
-            const formulario1 = document.forms['formulario']
-            let texto = ''
-            for(item of formulario1){
-                texto += item.value + ' '
-            }
-            console.log(texto)
-            document.getElementById('valores').innerHTML = texto
+<script>
+     
+
+
+      const form1 = document.getElementById("formulario")
+
+      form1.addEventListener("focus", (evento)=>{
+          evento.target.style.background="red"
+      }, true)
+
+      form1.addEventListener("blur", (evento)=>{
+          evento.target.style.background="red"
+}, true)
+
+document.getElementById("name").addEventListener("focus", change)
+    document.getElementById("name").addEventListener("blur", restore)
+    document.getElementById("lastName").addEventListener("focus", change)
+    document.getElementById("lastName").addEventListener("blur", change)
+        
+    function change (event) {
+        const element = event.target
+    element.style.background ='blue'
+    
         }
-        const form1 = document.getElementById("formulario")
-        form1.addEventListener("focus", (evento)=>{
-            evento.target.style.background="red"
-        }, true)
-        form1.addEventListener("blur", (evento)=>{
-            evento.target.style.background="white"
-        }, true)
-    </script>
+        function restore (event) {
+            const element = event.target
+    element.style.background ='red'
+    
+        }
+
+        if(descripcion.value === '' === valor.value === '') {
+    alert('LLena todos los datos crack')
+} else {
+
+}
+
+
+ 
+    
+ </script>
 </body>
 </html>
