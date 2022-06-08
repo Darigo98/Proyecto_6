@@ -1,0 +1,54 @@
+h1 { 
+
+    color: rgb(173, 86, 14);
+  }
+  P{
+      color: rgb(139, 16, 139);
+      background-color:rgb(20, 126, 187);
+      padding: 1px;
+      border: 60px solid rgb(151, 0, 45);
+      /* margin: 20px; */
+  /* margin-top: 50px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  margin-left: 30px; */
+  
+  margin: 80px 60px 60px;
+     }
+
+     html{
+        Background-color: #00637c;
+        Min-height: 1000px;
+        Font-family: "helvética ";
+        Background: url(1.png) ,    
+      
+        
+        
+        Linear-gradient(to left, #ffffff, #f1efef);
+        text-align:justify;
+        }
+
+       
+        
+
+               
+
+               img{
+                   margin-top: 0px;
+
+                margin-left: 200px;
+
+                display: flex;
+               }
+
+               .contendor{
+
+                display: flex;
+                text-align: center;
+                margin-left: 200px;
+               }
+
+               h1{
+                display: flex;
+                margin-left: 100px;
+               }
