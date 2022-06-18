@@ -7,7 +7,7 @@
 
 
 @keyframes mover {
-    0% {
+    100% {
         transform: translateX(30%);
         background-image: #6f37a7;
     }
@@ -19,12 +19,12 @@
 }
 
 body{
-    margin: 0;
+    margin-bottom: 20;
     font-family:cursive;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     color: #0c0c08;
-    text-align: left;
+    text-align: center;
     background-color: rgb(192, 84, 138);
 }

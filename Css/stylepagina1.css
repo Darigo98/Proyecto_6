@@ -34,10 +34,8 @@ h1 {
                
 
                img{
-                   margin-top: 0px;
-
-                margin-left: 200px;
-
+ 
+align-items: center;
                 display: flex;
                }
 
@@ -50,5 +48,5 @@ h1 {
 
                h1{
                 display: flex;
-                margin-left: 100px;
+                margin-left: 10;
                }
